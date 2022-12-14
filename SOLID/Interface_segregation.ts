@@ -31,12 +31,12 @@ class Dog implements Mammal {
 class Hummingbird implements Bird {
   move(): void {
     // Move like a bird
-    console.log("PASSANDO SE MOVENDO")
+    console.log("PÁSSARO SE MOVENDO")
   }
 
   fly(): void {
     // Fly like a hummingbird
-    console.log("PASSANDO VOANDO")
+    console.log("PÁSSARO VOANDO")
   }
 }
 
