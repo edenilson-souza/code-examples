@@ -1,4 +1,4 @@
-import DataStorage from "../../domain/repository/DataStorage";
+import DataStorage from "../repository/DataStorage";
 
 export default class DBAdapter implements DataStorage {
     constructor(){

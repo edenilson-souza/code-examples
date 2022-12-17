@@ -1,4 +1,4 @@
-import DataStorage from '../../domain/repository/DataStorage';
+import DataStorage from '../../infra/repository/DataStorage';
 import SomaProcedimento from '../../domain/useCases/Procedimento/SomaProcedimentos';
 
 export default class ProcedimentoDatabaseService {

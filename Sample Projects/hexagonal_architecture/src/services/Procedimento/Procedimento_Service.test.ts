@@ -1,5 +1,5 @@
 import Procedimento from '../../domain/entities/Procedimento';
-import DataStorage from '../../domain/repository/DataStorage';
+import DataStorage from '../../infra/repository/DataStorage';
 import ProcedimentoService from './Procedimento_Service';
 
 const dataStorageFake: DataStorage = {

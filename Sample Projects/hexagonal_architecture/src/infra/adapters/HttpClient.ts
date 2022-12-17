@@ -1,4 +1,4 @@
-import Http from '../../domain/repository/Http';
+import Http from '../repository/Http';
 import express, { Request, Response } from 'express';
 import bodyParser from 'body-parser';
 
