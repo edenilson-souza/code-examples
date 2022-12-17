@@ -15,12 +15,14 @@ const dataStorageFake: DataStorage = {
     }
 };
 
-test('Deve salvar soma de procedimentos', () => {
-    try {
-        const procedimentoDatabaseService = new ProcedimentoDatabaseService(dataStorageFake);
-        const procedimento_one = new Procedimento({ nome: 'JDISAD', valor: 45456 });
-        procedimentoDatabaseService.saveSomaProcedimentos([procedimento_one]);
-    } catch (error) {
-        throw new Error('Algo deu errado ao salvar procedimento');
-    }
+describe('Service Procedimento', () => {
+    test('Deve salvar soma de procedimentos', () => {
+        try {
+            const procedimentoDatabaseService = new ProcedimentoDatabaseService(dataStorageFake);
+            const procedimento_one = new Procedimento({ nome: 'JDISAD', valor: 45456 });
+            procedimentoDatabaseService.saveSomaProcedimentos([procedimento_one]);
+        } catch (error) {
+            throw new Error('Algo deu errado ao salvar procedimento');
+        }
+    });
 });
