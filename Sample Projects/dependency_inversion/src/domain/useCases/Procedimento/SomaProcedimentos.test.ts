@@ -1,4 +1,4 @@
-import Procedimento from '../../../domain/entities/Procedimento';
+import Procedimento from '../../entities/Procedimento';
 import SomaProcedimentos from './SomaProcedimentos';
 
 describe('Use Case Procedimento', () => {

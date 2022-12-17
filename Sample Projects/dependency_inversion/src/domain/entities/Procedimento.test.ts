@@ -1,4 +1,4 @@
-import Procedimento from '../../domain/entities/Procedimento';
+import Procedimento from './Procedimento';
 
 describe('Entity Procedimento', () => {
     test('Deve criar um procedimento', () => {

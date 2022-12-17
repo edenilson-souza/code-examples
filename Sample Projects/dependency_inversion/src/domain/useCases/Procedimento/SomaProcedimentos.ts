@@ -1,4 +1,4 @@
-import Procedimento from '../../../domain/entities/Procedimento';
+import Procedimento from '../../entities/Procedimento';
 
 export default class SomaProcedimentos {
     procedimentos: Procedimento[];
