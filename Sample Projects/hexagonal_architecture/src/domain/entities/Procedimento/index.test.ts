@@ -1,4 +1,4 @@
-import Procedimento from './Procedimento';
+import Procedimento from './';
 
 describe('Entity Procedimento', () => {
     test('Deve criar um procedimento', () => {
