@@ -1,6 +1,6 @@
-import DB from "./DB";
+import DataStorage from "../../domain/repository/DataStorage";
 
-export default class DBAdapter implements DB {
+export default class DBAdapter implements DataStorage {
     constructor(){
 
     }
